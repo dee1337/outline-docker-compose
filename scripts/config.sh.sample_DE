@@ -15,10 +15,10 @@ FORCE_HTTPS=false
 # The domain in you email.
 # Comma separated list of domains to be allowed (optional).
 # If not set, the first user's domain is allowed by default.
-ALLOWED_DOMAINS=gmail.com, googlemail.com
+ALLOWED_DOMAINS=gmail.com,googlemail.com
 
 # Docker image version
-OUTLINE_VERSION=0.81
+OUTLINE_VERSION=0.81.1
 POSTGRES_VERSION=17.2-alpine3.21
 MINIO_VERSION=RELEASE.2025-02-03T21-03-04Z
 MINIO_MC_VERSION=RELEASE.2025-02-08T19-14-21Z
