@@ -8,20 +8,20 @@ URL=http://127.0.0.1:8888
 # available language codes and their rough percentage translated.
 DEFAULT_LANGUAGE=en_US
 # https://docs.djangoproject.com/en/2.2/ref/settings/#language-code
-LANGUAGE_CODE=en-us
+LANGUAGE_CODE=de #en-US
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-TIME_ZONE=UTC
+TIME_ZONE=CET
 FORCE_HTTPS=false
 # The domain in you email.
 # Comma separated list of domains to be allowed (optional).
 # If not set, the first user's domain is allowed by default.
-ALLOWED_DOMAINS=
+ALLOWED_DOMAINS=gmail.com, googlemail.com
 
 # Docker image version
-OUTLINE_VERSION=0.72.0-3
-POSTGRES_VERSION=15.2-alpine3.17
-MINIO_VERSION=RELEASE.2022-11-17T23-20-09Z
-MINIO_MC_VERSION=RELEASE.2022-11-17T21-20-39Z
+OUTLINE_VERSION=0.81
+POSTGRES_VERSION=17.2-alpine3.21
+MINIO_VERSION=RELEASE.2025-02-03T21-03-04Z
+MINIO_MC_VERSION=RELEASE.2025-02-08T19-14-21Z
 
 # Nginx
 # The nginx bind ip and port.
