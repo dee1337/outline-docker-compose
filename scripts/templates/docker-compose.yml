@@ -45,6 +45,7 @@ services:
       - ${NETWORKS}
 ##END
   wk-outline:
+    user: 0:0 # fix permission problems
     image: outlinewiki/outline:${OUTLINE_VERSION}
     command: sh -c "yarn db:migrate --env production-ssl-disabled && yarn start"
     environment:
